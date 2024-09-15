@@ -4,6 +4,6 @@ names:
 - stop
 - yield
 nc: 4
-train: LISA-road-signs-2/train/images
-val: LISA-road-signs-2/valid/images
-test: LISA-road-signs-2/test/images
+train: train/images
+val: valid/images
+test: test/images
