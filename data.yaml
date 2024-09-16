@@ -1,0 +1,9 @@
+names:
+- pedestrianCrossing
+- signalAhead
+- stop
+- yield
+nc: 4
+train: train/images
+val: valid/images
+test: test/images
