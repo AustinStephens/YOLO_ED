@@ -59,7 +59,7 @@ if(len(sys.argv) >= 3):
             bheight = ymax - ymin
 
             # 1 is only class
-            labelsFile.write(f"1 {xmin} {ymin} {bwidth} {bheight}\n")
+            labelsFile.write(f"1 {xmin + (bwidth / 2)} {ymin + (bheight / 2)} {bwidth} {bheight}\n")
 
         # find the folder it lives in
         if os.path.isfile(f"{inputFolderName}/train0/{fileName}.jpg"):
